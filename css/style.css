@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background: #fff;
+    z-index: 100;
+    top: 0;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 12%);
+    padding: 10px 0px;
+    position: sticky;
+}
+
+.dropdown-toggle::after {
+    content: "\f078" !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+    font-size: 10px !important;
+    color: #7d7d7d !important;
+    margin-left: 5px !important;
+    display: inline-block !important;
+    transition: 0.4s ease-in-out !important;
+    transform: translateY(2px) !important;
+    border: 0px !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-weight: 500 !important;
+    color: #737373 !important;
+    text-transform: inherit !important;
+    padding: 12px 16px 0px !important;
+    font-size: 14px;
+}
+
+nav button{
+    font-size: 14px;
+    background: #000;
+    color: #fff;
+    outline: none !important;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.navbar-brand{
+    color: #737373;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.navbar-brand span{
+    color: #4c6fa6;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.banner{
+    padding: 80px 0px;
+}
+
+
+.banner .content h1{
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+
+.banner .content p{
+    color: #707070;
+}
+
+.banner .content button{
+    font-size: 16px;
+    background: #000;
+    color: #fff;
+    outline: none !important;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.paralex{
+    background: #D8D8D8;
+    padding: 80px;
+}
+
+
+.paralex .content h1{
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+
+.paralex .content p{
+    color: #707070;
+    width: 73%;
+    padding-top: 20px;
+}
+
+.paralex .content button{
+    font-size: 16px;
+    background: #000;
+    color: #fff;
+    outline: none !important;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+/* .slide-card{
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+} */
+.top {
+    top: 115px;
+    z-index: 0;
+}
+
+@media (max-width:490px) {
+    .slide-card{
+    padding: 0px !important;
+    }
+    .features-right-2{
+        width: 100% !important;
+    }
+}
+
+.text{
+    color: #707070;
+    padding-left: 10px;
+}
+
+.paralex-img{
+    width: 90px;
+    margin-top: 10px;
+}
+
+.paralex .content h2{
+    font-size: 38px;
+    line-height: 55px;
+}
+
+.slide-card h3{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+.slide-card p{
+    color: #707070;
+    padding-top: 10px;
+}
+
+.nitty {
+    padding: 80px;
+}
+
+.nitty .heading{
+   margin-bottom: 60px;
+}
+
+.nitty .heading h3{
+    text-align: center;
+    font-weight: 600;
+}
+
+.nitty .box{
+    padding: 40px;
+    background: #D6D6D6;
+    border-radius: 10px;
+}
+
+
+.nitty .box .images{
+    display: flex;
+    justify-content: center;
+}
+
+.nitty .box p{
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+
+.faq {
+    padding: 0px 0px 80px 0px;
+}
+
+.faq .heading{
+   margin-bottom: 60px;
+}
+
+.faq .heading h3{
+    text-align: center;
+    font-weight: 600;
+}
+
+
+#accordion{
+    background: #D6D6D6;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.btn-link {
+    width: 100% !important;
+    text-align: left !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    color: #000 !important;
+    font-weight: 500;
+    font-size: 18px !important;
+    text-decoration: none !important;
+}
+
+.card-header {
+    padding: 10px !important;
+    background-color: inherit !important;
+    border: none !important;
+}
+
+
+.faq .card {
+    background: none !important;
+    border: none !important;
+    /* border-top: 2px solid #004f9d !important; */
+    border-bottom: 2px solid #ababab !important;
+    border-radius: 0px !important;
+    position: relative !important;
+}
+
+.calendar{
+    background: #000;
+    padding: 80px;
+}
+
+.calendar .heading{
+    color: #fff;
+    text-align: center;
+}
+
+.slider {
+    padding: 40px 0px 0px 0px;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.calender-box{
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto !important;
+}
+
+.calender-box p{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.calender-box h4{
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+
+.owl-theme .owl-nav [class*=owl-] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    background: #ffff !important;
+    color: #0000 !important;
+    text-decoration: none;
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 100% !important;
+    position: relative;
+   
+}
+
+.owl-theme .owl-prev{
+    position: absolute !important;
+    left: 0px;
+    top: 45px;
+}
+
+
+.owl-theme .owl-next{
+    position: absolute !important;
+    right: 0px;
+    top: 45px;
+}
+
+.owl-prev::after {
+    content: "\f060" !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+    font-size: 21px !important;
+    color: #000 !important;
+    margin-left: 5px !important;
+    display: inline-block !important;
+    transition: 0.4s ease-in-out !important;
+    transform: translateY(-1px) !important;
+    border: 0px !important;
+    position: absolute !important;
+    top: 1px !important;
+    left: 1px !important;
+}
+
+.owl-next::after {
+    content: "\f061" !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+    font-size: 21px !important;
+    color: #000 !important;
+    margin-left: 5px !important;
+    display: inline-block !important;
+    transition: 0.4s ease-in-out !important;
+    transform: translateY(-1px) !important;
+    border: 0px !important;
+    position: absolute !important;
+    top: 1px !important;
+    left: 1px !important;
+}
+
+.blog{
+    background: #A7A7A7;
+    padding: 80px;
+}
+
+.blog .heading{
+    margin-bottom: 40px;
+}
+
+.blog h3{
+    text-align: center;
+    color: #fff;
+}
+
+.blog-box{
+    background: #fff;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.blog-box .img img{
+    width: 100%;
+    height: 230px;
+}
+
+.blog-box .p{
+    font-weight: 500;
+}
+
+.blog-box .content p{
+    color: #707070;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+
+.blog-box .content a{
+    color: #000;
+    padding-top: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+footer{
+    background: #737373;
+    padding: 40px 0px;
+}
+
+footer h4{
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li{
+    color: #fff;
+    padding-top: 10px;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    border-radius: 100%;
+    color: #737373;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mobile{
+    display: none;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    perspective: 1000px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    padding: 40px;
+    background: #D6D6D6;
+    border-radius: 10px;
+  }
+
+  .flip-card-front p {
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+@media only screen and (max-width: 768px) {
+    
+    .banner {
+        padding: 50px 30px;
+    }
+    
+    .banner .content h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .banner .content p {
+        color: #707070;
+        text-align: center;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .paralex {
+        padding: 50px  30px;
+    }
+
+    .paralex .content h2 {
+        font-size: 22px;
+        text-align: center;
+        line-height: 0px;
+        font-weight: 600;
+    }
+
+    .paralex .content p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .slide-card {
+        margin-top: 40px;
+    }
+
+    .nitty {
+        padding: 50px 30px;
+    }
+
+    .nitty .box{
+        margin-bottom: 20px;
+    }
+
+    #accordion {
+        padding: 20px;
+    }
+
+    .faq .heading {
+        margin-bottom: 30px;
+    }
+
+    .calendar {
+        background: #000;
+        padding: 50px 30px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .slider {
+        padding: 40px 0px 0px 0px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .owl-theme .owl-prev{
+        left: -40px;
+    }
+    
+    .owl-theme .owl-next{
+        right: -40px;
+    }
+
+    .calender-box {
+        padding: 15px;
+    }
+
+    .calendar .heading h3{
+        font-size: 28px;
+    }
+
+    .blog {
+        padding: 50px 30px;
+    }
+
+    .blog-box {
+        margin-bottom: 30px;
+    }
+
+    nav button{
+        margin-top: 30px;
+    }
+
+    .navbar-toggler{
+        color: #000 !important;
+    }
+  }
